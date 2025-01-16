@@ -1,0 +1,110 @@
+body {
+  background-color: aliceblue;
+}
+
+#about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-content {
+  margin-top: 60px;
+  display: flex;
+  width: 63%;
+  justify-content: space-around;
+}
+
+h3 {
+  font-family: 'Outfit', sans-serif;
+  color: #121236de;
+}
+
+#navigation {
+  display: flex;
+}
+
+button {
+  font-family: 'Outfit', sans-serif;
+  color: #121236de;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab-button {
+  background-color: #e7e7e7;
+  height: 50px;
+  width: 148px;
+  font-size: large;
+  padding: 0;
+}
+
+#history-btn {
+  border-radius: 20px 0 0 0;
+}
+
+#goals-btn {
+  border-radius: 0 20px 0 0;
+}
+
+h1 {
+  font-family: 'Outfit', sans-serif;
+  color: #121236de;
+  margin: 20px 0px;
+}
+
+#section-title {
+  font-family: 'Outfit', sans-serif;
+}
+
+#image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#content-container {
+  background-color: white;
+  width: 445px;
+  box-shadow: 2px 2px 6px 2px gray;
+  border-radius: 21px;
+  height: 287px;
+}
+
+#history-section {
+  margin: 12px;
+}
+
+.intro-text {
+  text-align: center;
+  margin: 0px;
+}
+
+img {
+  height: 287px;
+  border-radius: 21px;
+  position: relative;
+  left: -27px;
+  width: 401px;
+  top: -4px;
+}
+
+p {
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: #9e9999;
+  font-size: 14px;
+}
+
+.tab-button:focus {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.tab-button:hover {
+  background-color: #bfbfbf;
+}
+
+.tab-button:active {
+  background-color: #a0a0a0;
+}
